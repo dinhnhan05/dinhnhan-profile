@@ -1,0 +1,77 @@
+/* src/styles.css */
+*{
+  font-family: Poppins;
+}
+
+body {
+  background-image: url('https://api.ipxi.cn/wp/api.php'); 
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #fffafa ;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-shadow: 2px 2px 5px #5F5F5A;
+}
+/* Định dạng giao diện chung của trang Bio Link */
+.bio-link {
+  text-align: center; /* Căn giữa nội dung trang */
+  background: hsla(360, 100%, 100%, 0.63);
+padding-top: 50px;
+  height: 20vh;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+border-radius: 5px;
+}
+
+/* Định dạng hình ảnh đại diện */
+.avatar {
+  margin: 0 auto; /* Căn giữa hình ảnh  /* Tùy chỉnh kích thước hình ảnh */
+  border-radius: 50%;
+  width: 102px;
+  height: 102px;
+  overflow: hidden;
+  border: 4px solid #3296FF ;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+/* Định dạng tiểu sử */
+.bio {
+  margin: 13px 0; /* Khoảng cách giữa hình ảnh và tiểu sử */
+}
+
+/* src/styles.css */
+
+/* Định dạng hộp liên kết */
+.link-box {
+  display: flex;
+  justify-content: space-between;/* Xếp các hộp liên kết theo chiều dọc */
+  align-items: center; /* Căn giữa theo chiều ngang */
+}
+
+/* Định dạng hộp mỗi liên kết */
+.link {
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều ngang */
+  margin: 10px; /* Khoảng cách giữa các liên kết */
+  padding-left: 16px;
+  padding-top: 23px;
+}
+
+/* Định dạng hình logo */
+.link-logo {
+  width: 31px; /* Tùy chỉnh kích thước hình logo */
+  border-radius: 5px;
+  margin-right: 20px; /* Khoảng cách giữa hình logo và tên liên kết */
+    
+}
+
